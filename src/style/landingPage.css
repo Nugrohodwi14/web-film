@@ -1,0 +1,72 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/images/bg/main.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending {
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}
+
+.superhero {
+    height: auto;
+    background: url("../assets/images/bg/spiderman.jpg");
+    background-size: cover;
+}
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    border: white;
+}
+
+.movieWrapper {}
+
+.images {
+    height: 500px;
+}
+
+.navbar.fixed {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    text-shadow: 1px 4px black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    opacity: 1;
+    top: 0;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+        -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
+        12px 0 15px -4px rgba(31, 73, 125, 0.8),
+        -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+}
+
+.navbar.fixed button {
+    background-color: green;
+}
